@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "postbuild": "cp src/style.css lib/style.css"
   },
   "author": "Ripunjoy Sarkar",
   "license": "ISC",
