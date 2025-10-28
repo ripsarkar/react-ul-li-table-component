@@ -1,13 +1,13 @@
 import React from 'react';
 import './style.css';
 import TableRow from './components/TableRow';
-const data = [
-  { id: 1, name: 'John Doe', age: 30, city: 'New York' },
-  { id: 2, name: 'Jane Smith', age: 25, city: 'Los Angeles' },
-  { id: 3, name: 'Peter Jones', age: 40, city: 'Chicago' },
-];
+// const data = [
+//   { id: 1, name: 'John Doe', age: 30, city: 'New York' },
+//   { id: 2, name: 'Jane Smith', age: 25, city: 'Los Angeles' },
+//   { id: 3, name: 'Peter Jones', age: 40, city: 'Chicago' },
+// ];
 
-function ReactTable() {
+function ReactTable({data}) {
   const headerColumns = Object.keys(data[0]); // Get column names from the first object
 
   return (
