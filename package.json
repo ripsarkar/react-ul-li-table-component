@@ -1,6 +1,6 @@
 {
   "name": "react-ul-li-table-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a bar chart with your data",
   "main": "lib/index.js",
   "scripts": {
@@ -8,6 +8,18 @@
     "build": "babel src -d lib",
     "postbuild": "cp src/style.css lib/style.css"
   },
+  "keywords": [
+    "react",
+    "table",
+    "list-table",
+    "ul-li",
+    "semantic-html",
+    "responsive-table",
+    "accessible-table",
+    "react-component",
+    "ui-component",
+    "typescript"
+  ],
   "author": "Ripunjoy Sarkar",
   "license": "ISC",
   "devDependencies": {
